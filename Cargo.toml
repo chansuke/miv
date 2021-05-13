@@ -6,3 +6,8 @@ edition = "2018"
 
 [dependencies]
 termion = "1.5.6"
+
+[[bin]]
+bench = false
+path = "src/main.rs"
+name = "miv"
