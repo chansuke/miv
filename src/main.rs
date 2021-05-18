@@ -1,7 +1,9 @@
+use std::io::{self, stdout};
+use termion::event::Key;
+use termion::input::TermRead;
+
 use miv::editor::Editor;
 
 fn main() {
-    let editor = Editor::default();
-
-    editor.run();
+    Editor::default().run();
 }
